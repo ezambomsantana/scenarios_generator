@@ -1,11 +1,11 @@
 import os
 
-scenario_name = "scenario3"
-os.mkdir(scenario_name)
+scenario_name = "scenario5"
+#os.mkdir(scenario_name)
 
 for x in range (0, 11):
   folder = scenario_name + "/" + str(x)
-  os.mkdir(folder)
+  #os.mkdir(folder)
   for y in range(0,21):
 
     file1 = open(folder + "/config" + str(y) + ".xml","w") 
